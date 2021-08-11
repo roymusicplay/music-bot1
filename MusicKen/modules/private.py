@@ -31,17 +31,17 @@ Dikekolah oleh {OWNER}
             [
                 [
                     InlineKeyboardButton(
-                        "⚔️ ʙᴀɴᴛᴜᴀɴ", callback_data = f"help+1"),
+                        "⚔️ 𝙃𝙀𝙇𝙋", callback_data = f"help+1"),
                     InlineKeyboardButton(
-                        "ᴛᴀᴍʙᴀʜᴋᴀɴ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+                        "𝙂𝙍𝙊𝙐𝙋 𝙈𝙀 𝘿𝘼𝙇𝙊➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "👥 ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}"), 
+                        "👥 𝙂𝙍𝙊𝙐𝙋", url=f"https://t.me/{SUPPORT_GROUP}"), 
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ 📣", url=f"https://t.me/{UPDATES_CHANNEL}")],
+                        "𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣", url=f"https://t.me/{UPDATES_CHANNEL}")],
                 [
-                    InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"),
-                    InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")
+                    InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋 🌟", url="{SOURCE_CODE}"),
+                    InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")
                 ]        
             ]
         ),
@@ -55,10 +55,10 @@ async def gstart(_, message: Message):
         caption=f"""**🔴 {PROJECT_NAME} is online**""",
         reply_markup=InlineKeyboardMarkup(
                   [
-                    [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
-                    [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
-                     InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = f"t.me/{OWNER}")],
+                    [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
+                     InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
+                    [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")]
                 ]
         ),
     )
@@ -97,11 +97,11 @@ def map(pos):
     elif pos==len(tr.HELP_MSG)-1:
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton(text = '⚔️ ʙᴀɴᴛᴜᴀɴ', callback_data = f"help+1"),
-             InlineKeyboardButton(text = 'ᴛᴀᴍʙᴀʜᴋᴀɴ ➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
-             InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-            [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+            [InlineKeyboardButton(text = '⚔️ 𝙃𝙀𝙇𝙋', callback_data = f"help+1"),
+             InlineKeyboardButton(text = '𝙂𝙍𝙊𝙐𝙋 𝙈𝙀 𝘿𝘼𝙇𝙊➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
+             InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
+            [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")]
         ]
     else:
         button = [
@@ -124,10 +124,10 @@ async def admincache(client, message: Message):
       caption="✅ **Bot berhasil dimulai ulang!**\n\n **Daftar admin telah diperbarui**",
       reply_markup=InlineKeyboardMarkup(
                   [
-                    [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
-                    [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
-                     InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = f"t.me/{OWNER}")],
+                    [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
+                     InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
+                    [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")]
                 ]
         ),
     )
@@ -177,10 +177,10 @@ Semua Perintah Bisa Digunakan Kecuali Perintah /player /skip /pause /resume  /en
 • /userbotjoinchannel - undang asisten ke obrolan Anda""",
       reply_markup=InlineKeyboardMarkup(
                   [
-                    [InlineKeyboardButton(text = '🔵 ᴏᴡɴᴇʀ', url = f"t.me/{OWNER}")],
-                    [InlineKeyboardButton(text = '👥 ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}"),
-                     InlineKeyboardButton(text = 'ᴄʜᴀɴɴᴇʟ 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 ɢɪᴛ ʜᴜʙ 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = f"t.me/{OWNER}")],
+                    [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
+                     InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
+                    [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")]
                 ]
         ),
     )
