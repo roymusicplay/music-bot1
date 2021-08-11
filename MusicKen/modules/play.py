@@ -349,8 +349,10 @@ async def play(_, message: Message):
                                 InlineKeyboardButton("📖 ᴘʟᴀʏʟɪꜱᴛ", callback_data="playlist"),
                                 InlineKeyboardButton("💬 ɢʀᴏᴜᴘ", url=f"https://t.me/{groupsupport}"),
                             ],   
-                            [InlineKeyboardButton("💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")],
-                            [InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls")],
+                            [InlineKeyboardButton("💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")],
+                           [InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls")],
+                          [InlineKeyboardButton("❤️𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋", url="https://t.me/")],
+
                         ]
                     )
         requested_by = message.from_user.first_name
