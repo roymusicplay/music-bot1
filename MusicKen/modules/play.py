@@ -349,9 +349,9 @@ async def play(_, message: Message):
                                 InlineKeyboardButton("📖 ᴘʟᴀʏʟɪꜱᴛ", callback_data="playlist"),
                                 InlineKeyboardButton("💬 ɢʀᴏᴜᴘ", url=f"https://t.me/{groupsupport}"),
                             ],   
-                            [InlineKeyboardButton("💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")],
+                            [InlineKeyboardButton("💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://t.me/abhinasroy")],
                            [InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls")],
-                          [InlineKeyboardButton("❤️𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋", url="https://t.me/")],
+                          [InlineKeyboardButton("❤️𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋", url="https://t.me/DOSTI_GROUP1234")],
 
                         ]
                     )
@@ -363,7 +363,7 @@ async def play(_, message: Message):
         for i in message.command[1:]:
             query += " " + str(i)
         print(query)
-        await lel.edit("🎵 **Sedang Memproses Lagu**")
+        await lel.edit("🎵 **Sedang Memproses Lagu**")i
         ydl_opts = {"format": "141/bestaudio[ext=m4a]"}
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
@@ -392,8 +392,10 @@ async def play(_, message: Message):
                                 InlineKeyboardButton("📖 ᴘʟᴀʏʟɪꜱᴛ", callback_data="playlist"),
                                 InlineKeyboardButton("💬 ɢʀᴏᴜᴘ", url=f"https://t.me/{groupsupport}"),
                             ],   
-                            [InlineKeyboardButton("💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")],
+                            [InlineKeyboardButton("💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://t.me/abhinasroy")],
                             [InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls")],
+                           [InlineKeyboardButton("💌 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋", url="https://t.me/DOSTI_GROUP_1234")],
+
                         ]
                     )
         requested_by = message.from_user.first_name
@@ -506,7 +508,7 @@ async def deezer(client: Client, message_: Message):
         url = songs.result[0].url
         artist = songs.result[0].artist
         duration = songs.result[0].duration
-        thumbnail = "https://telegra.ph/file/c9c7e24b03919fa5f8022.jpg"
+        thumbnail = "https://telegra.ph/file/9bc0650d7f60d0618d815.jpg"
 
     except:
         await res.edit("**Tidak Ditemukan Lagu Apa Pun!**")
@@ -525,8 +527,10 @@ async def deezer(client: Client, message_: Message):
                                 InlineKeyboardButton("📖 ᴘʟᴀʏʟɪꜱᴛ", callback_data="playlist"),
                                 InlineKeyboardButton("💬 ɢʀᴏᴜᴘ", url=f"https://t.me/{groupsupport}"),
                             ],   
-                            [InlineKeyboardButton("💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"), InlineKeyboardButton("💵 ꜱᴀᴡᴇʀɴʏᴀ", url="https://trakteer.id/kenkansaja/tip")],
+                            [InlineKeyboardButton("💌 ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{updateschannel}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")],
                             [InlineKeyboardButton(text="🗑 ᴛᴜᴛᴜᴘ", callback_data="cls")],
+                          [InlineKeyboardButton("💌 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋", url="https://t.me/DOSTI_GROUP_1234")],
+
                         ]
                     )
     file_path = await convert(wget.download(url))
