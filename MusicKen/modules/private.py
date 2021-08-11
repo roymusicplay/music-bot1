@@ -40,8 +40,8 @@ Dikekolah oleh {OWNER}
                     InlineKeyboardButton(
                         "𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣", url=f"https://t.me/{UPDATES_CHANNEL}")],
                 [
-                    InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋 🌟", url="{SOURCE_CODE}"),
-                    InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")
+                    InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋 🌟", url=f"{SOURCE_CODE}"),
+                    InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://t.me/abhinasroy")
                 ]        
             ]
         ),
@@ -58,7 +58,7 @@ async def gstart(_, message: Message):
                     [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = f"t.me/{OWNER}")],
                     [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
                      InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://t.me/abhinasroy")]
                 ]
         ),
     )
@@ -101,7 +101,7 @@ def map(pos):
              InlineKeyboardButton(text = '𝙂𝙍𝙊𝙐𝙋 𝙈𝙀 𝘿𝘼𝙇𝙊➕', url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
              InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-            [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")]
+            [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋 🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://t.me/abhinasroy")]
         ]
     else:
         button = [
@@ -127,7 +127,7 @@ async def admincache(client, message: Message):
                     [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = f"t.me/{OWNER}")],
                     [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
                      InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀 𝙂𝙍𝙊𝙐𝙋🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://t.me/abhinasroy")]
                 ]
         ),
     )
@@ -180,7 +180,7 @@ Semua Perintah Bisa Digunakan Kecuali Perintah /player /skip /pause /resume  /en
                     [InlineKeyboardButton(text = '🔵 𝙊𝙒𝙉𝙀𝙍', url = f"t.me/{OWNER}")],
                     [InlineKeyboardButton(text = '👥 𝙂𝙍𝙊𝙐𝙋', url=f"https://t.me/{SUPPORT_GROUP}"),
                      InlineKeyboardButton(text = '𝘾𝙃𝘼𝙉𝙉𝙀𝙇 📣', url=f"https://t.me/{UPDATES_CHANNEL}")],
-                    [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://trakteer.id/kenkansaja/tip")]
+                    [InlineKeyboardButton("🌟 𝙐𝙋𝘿𝘼𝙏𝙀🌟", url=f"{SOURCE_CODE}"), InlineKeyboardButton("💵 𝙁𝘼𝙏𝙃𝙀𝙍", url="https://t.me/abhinasroy")]
                 ]
         ),
     )
